@@ -18,6 +18,13 @@
     "sourceMap": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@pages/*": ["src/pages/*"],
+      "@routes/*": ["src/routes/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
