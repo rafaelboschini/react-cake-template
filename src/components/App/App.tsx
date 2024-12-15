@@ -1,6 +1,6 @@
 import React from "react";
-import { ThemeProvider } from "../../contexts/CustomThemeProvider";
-import Routes from "../../routes/Routes";
+import Routes from "@routes/Routes";
+import { ThemeProvider } from "@contexts/CustomThemeProvider";
 import "./App.scss";
 
 function App() {

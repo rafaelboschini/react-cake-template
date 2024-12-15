@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Signin, Home } from "../pages/";
-import Layout from "../layouts/Layout";
+import { Signin, Home } from "@pages/index";
+import Layout from "@layouts/Layout";
 import { lightTheme } from "../theme";
 
 function PublicRoute() {

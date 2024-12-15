@@ -1,5 +1,5 @@
 import React from "react";
-import { useTheme } from "../contexts/CustomThemeProvider";
+import { useTheme } from "@contexts/CustomThemeProvider";
 import { Theme } from "../theme"; // Import the theme
 
 type PrivateLayoutProps = {

@@ -54,6 +54,13 @@ const commonConfig = {
   ],
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
+    alias: {
+      "@components": path.resolve(__dirname, "src/components/"),
+      "@contexts": path.resolve(__dirname, "src/contexts/"),
+      "@layouts": path.resolve(__dirname, "src/layouts/"),
+      "@pages": path.resolve(__dirname, "src/pages/"),
+      "@routes": path.resolve(__dirname, "src/routes/")
+    },
   },
   output: {
     filename: "bundle.js",
